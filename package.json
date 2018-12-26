@@ -1,0 +1,21 @@
+{
+  "name": "@j.u.p.iter/react-external-link",
+  "version": "1.0.0",
+  "description": "Create external link with ease",
+  "main": "index.js",
+  "repository": "git@github.com:j-u-p-iter/react-external-link.git",
+  "author": "Leontyev Kirill (j.u.p.iter) <pn79122821224@gmail.com> (http://j-u-p-iter.pro/)",
+  "license": "MIT",
+  "scripts": {
+    "build": "jupiter-scripts build --bundle",
+    "start": "yarn run build --watch",
+    "test": "jupiter-scripts test",
+    "lint": "jupiter-scripts lint --format codeFrame",
+    "lint:fix": "yarn run lint --fix"
+  },
+  "devDependencies": {
+    "@j.u.p.iter/jupiter-scripts": "1.2.2",
+    "@types/react": "^16.7.17",
+    "react": "^16.6.3"
+  }
+}
